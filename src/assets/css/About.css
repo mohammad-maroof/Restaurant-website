@@ -1,0 +1,47 @@
+.about .heading{
+ color: aliceblue;
+ text-align: center;
+ font-size: 4rem;
+ 
+;
+
+}
+.about .heading span{
+    color: yellow;
+}
+.about .Row{
+    display: flex;
+    align-items: center;
+    background-color: #13131a;
+    flex-wrap: wrap;
+
+}
+.about .Row .image{
+    flex: 1 1 45rem;
+}
+.about .Row .image img{
+    width: 100%;
+} 
+.about .Row .content{
+    flex: 1 1 45rem;
+    padding:  2rem;
+}
+.about .Row .content h3{
+    font-size: 3rem;
+    color: #fff;
+}
+.about .Row .content p{
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+.about .content .btn{
+    width: 10rem;
+    height: 3rem;
+    font-size: large;
+    font-weight: 700;
+    background-color: #ffc107;
+    cursor: pointer;
+    
+}

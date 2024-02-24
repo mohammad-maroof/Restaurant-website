@@ -1,0 +1,65 @@
+.contact .heading{
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+padding-bottom: 3.5rem;
+font-size: 3rem;
+
+}
+.contact .heading span{
+    color: #ffc107;
+    text-transform: uppercase;
+
+}
+.contact .row{
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    gap: 1ram;
+}
+.contact .row .map{
+    flex: 0.1 0 45rem;
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+
+}
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+
+}
+.contact .row form h3{
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+.contact .row form .inputBox{
+    
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: whitesmoke;
+    border: 0.2rem solid #ffc107;
+}
+.contact .row form .inputBox span{
+    color: black;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.contact .row form  .inputBox input{
+    width: 93.5%;
+    padding: 1rem;
+    font-size:1.7rem;
+    text-transform: none;
+    background: none;
+}
+.contact .row form .btn{
+    width: 10rem;
+    height: 3rem;
+    background-color: #ffc107;
+    font-size: 1.6rem;
+    font-weight: 700;
+    cursor: pointer;
+}

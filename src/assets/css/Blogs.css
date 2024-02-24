@@ -1,0 +1,70 @@
+.blogs .heading{
+    text-align: center;
+text-transform: uppercase;
+color: #fff;
+padding-bottom: 3.5rem;
+font-size: 3rem;
+}
+.blogs .heading span{
+    text-transform: uppercase;
+    color: #ffc107;
+}
+.blogs .box-container{
+    
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        gap: 1.5rem;
+     }
+
+
+.blogs .box-container .box{
+    border: 0.2rem solid #ffc107;
+   
+
+}
+.blogs .box-container .content{
+    padding-left:2%;
+}
+.blogs .box-container .box .image{
+  
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.blogs .box-container .box .image img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+    padding-bottom: 5%;
+}
+.blogs .box-container .content .title{
+    
+    line-height: 1.5rem;
+    color: #fff;
+    font-size: 2rem;
+}
+.blogs .box-container .box .content .title:hover {
+    color: #ffc107;
+  }
+  .blogs .box-container .box .content span{
+    color: #ffc107;
+    padding-top: 1rem;
+    font-size: 2rem;
+    display: block;
+  }
+  .blogs .box-container .box .content p{
+    color: #ccc;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    padding: 1rem 0;
+  }
+  .blogs .box-container .box .content .btn{
+   font-weight: 600;
+   padding-top: 1%;
+    width: 9rem;
+    height: 2rem;
+    cursor: pointer;
+    background-color: #ffc107;
+  }
+

@@ -1,0 +1,42 @@
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(0 0 0 / 90%),rgb(68 68 68 / 35%)),
+    url(../images/home-jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .content{
+    max-width: 60rem;
+}
+.home span{
+    color: #ffc107;
+    text-transform: uppercase;
+}
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: white;
+}
+.home .content p{
+    font-size: 2rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #eee;
+}
+.home .content .btn{
+ background-color: #ffc107 ;
+ color: #eee;
+ width: 12rem;
+ height: 3rem;
+ cursor: pointer;
+ font-weight: 500;
+ font-size: 1.5rem;
+}
+.home .content .btn:hover{
+    background-color: red;
+  
+}
